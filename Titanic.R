@@ -21,5 +21,5 @@ posn.jd <- position_jitterdodge(0.5, 0, 0.6)
 ggplot(titanic, aes(x = Pclass, y = Age, col = Sex)) +
   geom_point(size = 3, alpha = 0.5, position = posn.jd) + 
   facet_grid(.~Survived)
-
+# done
 
